@@ -1,3 +1,4 @@
 # leetcode
 LeetCode Solution
-[GitHub](http://github.com)
+
+[GitHub](https://blog.naver.com/synviva)
