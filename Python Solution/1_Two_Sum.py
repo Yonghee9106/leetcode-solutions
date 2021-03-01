@@ -1,12 +1,11 @@
 class Solution:
-    def twoSum(self, nums, target):
-        diff_dic = {}                           #key: num, value: index
+    def twoSum(self, nums, target):             # type nums: List[int], type target: int
+        diff_dic = {}                           # key: num, value: index
         for index, num in enumerate(nums):
             diff = target - num
             if diff in diff_dic:
                 return [diff_dic[diff], index]
             diff_dic[num] = index
-            print(diff_dic)
         return print("No two sum solution")
 
 
