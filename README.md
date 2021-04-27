@@ -9,3 +9,4 @@
 | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) |  |Medium|      |
 | 6 | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/) |  |Medium|      |
 | 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | [Python](https://github.com/Yonghee9106/leetcode/blob/main/Python%20Solution/7_Reverse_Integer.py)  |Easy|O(n)|
+| 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) |  |Medium|      |
