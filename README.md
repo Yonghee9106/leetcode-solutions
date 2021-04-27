@@ -1,6 +1,6 @@
 # Yonghee's Python Solutions for Leetcode
 
-| # | Title                                             | Solution                                                                                   |-------| Comments |
+| # | Title                                             | Solution                                                                                   |Difficulty| Comments |
 |---|---------------------------------------------------|--------------------------------------------------------------------------------------------|-------|----------|
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Python](https://github.com/Yonghee9106/leetcode/blob/main/Python%20Solution/1_Two_Sum.py) |Easy| O(n)     |
 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) |  |Medium|      |
