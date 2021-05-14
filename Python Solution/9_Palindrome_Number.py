@@ -24,3 +24,4 @@ class Solution:
 
 
 print(Solution().isPalindrome(-121))
+
