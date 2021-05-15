@@ -14,6 +14,7 @@
 #         return for_num == rev_num
 
 
+
 ###################
 # Second Solution #
 ###################
