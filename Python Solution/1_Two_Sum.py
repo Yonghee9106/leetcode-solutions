@@ -6,7 +6,7 @@ class Solution:
             if diff in diff_dic:
                 return [diff_dic[diff], index]
             diff_dic[num] = index
-        return print("No two sum solution")
+        return print("No two sum solution!")
 
 
 print(Solution().twoSum([2, 7, 11, 15], 9))
