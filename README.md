@@ -1,4 +1,4 @@
-# Yonghee's Python Solutions for Leetcode
+# Yonghee's Leetcode Solutions
 
 
 | # | Title                                                | Solution                                                                             |Difficulty|Complexity|
