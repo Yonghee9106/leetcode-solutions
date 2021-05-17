@@ -8,7 +8,7 @@ class Solution(object):
         :type strs: List[str]
         :rtype: str
         """
-        if not str:
+        if not strs:                                 # if strs list is empty,
             return ""
 
         shortest = min(strs, key=len)
