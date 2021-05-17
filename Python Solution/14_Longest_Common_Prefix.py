@@ -41,12 +41,6 @@ class Solution(object):
             if char != max_str[index]:
                 return min_str[:index]
         return min_str
-    
-    
-
-###################
-# Third Solution #
-###################
 
 
 print(Solution().longestCommonPrefix(["flower", "flow", "flight"]))
