@@ -15,7 +15,7 @@ class Solution(object):
 
         for index, char in enumerate(shortest):
             for others in strs:
-                if others[index] != char:
+                if others[index] != char:           # if any character from left is different,
                     return shortest[:index]
         return shortest
 
