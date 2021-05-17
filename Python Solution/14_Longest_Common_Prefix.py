@@ -27,6 +27,9 @@ class Solution(object):
 
 
 
+###################
+# Third Solution #
+###################
 
 
 print(Solution().longestCommonPrefix(["flower", "flow", "flight"]))
