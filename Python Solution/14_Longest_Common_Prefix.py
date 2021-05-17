@@ -8,10 +8,10 @@ class Solution(object):
         :type strs: List[str]
         :rtype: str
         """
-        if not strs:                                 # if strs list is empty,
+        if not strs:                                # if strs list is empty,
             return ""
 
-        shortest = min(strs, key=len)
+        shortest = min(strs, key=len)               # assign shortest word in strs by length
 
         for index, char in enumerate(shortest):
             for others in strs:
