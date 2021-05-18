@@ -17,7 +17,7 @@ class Solution(object):
             for others in strs:
                 if others[index] != char:           # if any character from left is different,
                     return shortest[:index]         # return before that index
-        return shortest
+        return shortest                             # if there is no difference between shortest and other words in strs, return min
 
 
 
@@ -40,7 +40,7 @@ class Solution(object):
         for index, char in enumerate(min_str):
             if char != max_str[index]:              # only compare min and max words
                 return min_str[:index]              # because they're the words that make the most difference
-        return min_str
+        return min_str                              # if there is no difference between min and max, return min
 
 
 print(Solution().longestCommonPrefix(["flower", "flow", "flight"]))
