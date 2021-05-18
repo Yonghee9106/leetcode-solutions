@@ -34,7 +34,7 @@ class Solution(object):
         if not strs:                                # if strs list is empty,
             return ""
 
-        min_str = min(strs)
+        min_str = min(strs)                         # returns min based on alphabetic order
         max_str = max(strs)
 
         for index, char in enumerate(min_str):
