@@ -38,7 +38,7 @@ class Solution(object):
         max_str = max(strs)                         # returns max based on alphabetic order
 
         for index, char in enumerate(min_str):
-            if char != max_str[index]:
+            if char != max_str[index]:              # only compare with min and max words
                 return min_str[:index]
         return min_str
 
