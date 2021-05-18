@@ -35,7 +35,7 @@ class Solution(object):
             return ""
 
         min_str = min(strs)                         # returns min based on alphabetic order
-        max_str = max(strs)
+        max_str = max(strs)                         # returns max based on alphabetic order
 
         for index, char in enumerate(min_str):
             if char != max_str[index]:
