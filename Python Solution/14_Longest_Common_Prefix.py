@@ -31,7 +31,7 @@ class Solution(object):
         :type strs: List[str]
         :rtype: str
         """
-        if not strs:
+        if not strs:                                # if strs list is empty,
             return ""
 
         min_str = min(strs)
