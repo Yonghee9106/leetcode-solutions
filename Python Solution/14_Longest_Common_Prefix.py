@@ -17,7 +17,7 @@ class Solution(object):
             for others in strs:
                 if others[index] != char:           # if any character from left is different,
                     return shortest[:index]         # return before that index
-        return shortest                             # if there is no difference between shortest and other words in strs, return min
+        return shortest                             # if there is no difference between the shortest and other words in strs, return min
 
 
 
