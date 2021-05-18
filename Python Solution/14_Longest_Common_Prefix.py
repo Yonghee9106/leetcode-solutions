@@ -34,8 +34,8 @@ class Solution(object):
         if not strs:                                # if strs list is empty,
             return ""
 
-        min_str = min(strs)                         # returns min based on alphabetic order
-        max_str = max(strs)                         # returns max based on alphabetic order
+        min_str = min(strs)                         # returns min based on alphabetical order
+        max_str = max(strs)                         # returns max based on alphabetical order
 
         for index, char in enumerate(min_str):
             if char != max_str[index]:              # only compare with min and max words
