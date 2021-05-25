@@ -1,10 +1,10 @@
 class Solution:
     def twoSum(self, nums, target):             # type nums: List[int], type target: int
         diff_dic = {}                           # key: num, value: index
-        for index, num in enumerate(nums):
+        for index, num in enumerate(nums):      # enumerate() returns index and value(num)
             diff = target - num
-            if diff in diff_dic:
-                return [diff_dic[diff], index]
+            if diff in diff_dic:                # if there is diff in diff_dic
+                return [diff_dic[diff], index]  # they are the two sum combination
             diff_dic[num] = index
         return print("No two sum solution!")
 
