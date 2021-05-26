@@ -26,7 +26,7 @@ class Solution:
 
         while num:
             num, mod = divmod(num, 10)                      # num is quotient, mod is remainder
-            rev_num = (rev_num * 10) + mod                  # creating reversed num
+            rev_num = (rev_num * 10) + mod                  # creating reverse num
 
         if -pow(2, 31) <= rev_num <= pow(2, 31) - 1:        # if -(2**31) <= rev_num <= (2**31) - 1
             return sign * rev_num                           # if in the range, return with a sign
