@@ -22,7 +22,7 @@ class Solution:
     def reverse(self, x):                                   # type x: int
         sign = [1, -1][x < 0]                               # sign = -1 if x < 0 else 1
         rev_num = 0
-        num = abs(x)
+        num = abs(x)                                        # abs() function returns the absolute value of a number
 
         while num:
             num, mod = divmod(num, 10)                      # num is quotient, mod is remainder
