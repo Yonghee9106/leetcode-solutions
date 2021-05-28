@@ -8,7 +8,7 @@
 #         rev_num = 0
 #
 #         while x > 0:                                # if x is negative number, it's not palindrome
-#             rev_num = (rev_num * 10) + (x % 10)     # making reversed number
+#             rev_num = (rev_num * 10) + (x % 10)     # making reverse number
 #             x = x // 10
 #
 #         return for_num == rev_num
