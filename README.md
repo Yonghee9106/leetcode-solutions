@@ -17,5 +17,4 @@
 | 12 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) |  | Medium |      |
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [Python](https://github.com/Yonghee9106/Leetcode-Solutions/blob/main/Python%20Solution/13_Roman_to_Integer.py) | Easy | O(1) |
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [Python](https://github.com/Yonghee9106/Leetcode-Solutions/blob/main/Python%20Solution/14_Longest_Common_Prefix.py) | Easy | O(n) |
-| 15 | [3Sum](https://leetcode.com/problems/3sum/) |  | Medium |  |
-| 16 | [3Sum Closest](https://leetcode.com/problems/3sum-closest/) |  | Medium |  |
+| 15 | [3Sum](https://leetcode.com/problems/3sum/) |  | Medium |  
