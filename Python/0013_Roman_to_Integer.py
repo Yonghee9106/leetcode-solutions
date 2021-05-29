@@ -8,7 +8,7 @@
 #         num = 0
 #
 #         for i in range(0, len(s) - 1):                  # range from 0 to len(s)-1, because there is no s[i+1] at the end of s
-#             if Roman_Dic[s[i]] < Roman_Dic[s[i+1]]:     # if right Roman is bigger than left, that is expression of 4
+#             if Roman_Dic[s[i]] < Roman_Dic[s[i+1]]:     # if right Roman is bigger than left, that is the expression of 4
 #                 num -= Roman_Dic[s[i]]                  # So, subtract it
 #             else:                                       # if right Roman is smaller than left, that is normal
 #                 num += Roman_Dic[s[i]]                  # So, just add them
