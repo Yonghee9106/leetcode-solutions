@@ -12,7 +12,7 @@
 #                 num -= Roman_Dic[s[i]]                  # So, subtract it
 #             else:                                       # if right Roman is smaller than left, that is normal
 #                 num += Roman_Dic[s[i]]                  # So, just add it
-#         return num + Roman_Dic[s[-1]]                   # add right last Roman because that is not in for loop range
+#         return num + Roman_Dic[s[-1]]                   # add rightmost Roman because that is not in for loop range
 
 
 
