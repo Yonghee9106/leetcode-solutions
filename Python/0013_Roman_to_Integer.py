@@ -10,7 +10,7 @@
 #         for i in range(0, len(s) - 1):                  # range from 0 to len(s)-1, because there is no s[i+1] at the end of s
 #             if Roman_Dic[s[i]] < Roman_Dic[s[i+1]]:     # if right Roman is bigger than left, that is the expression of 4 and 9
 #                 num -= Roman_Dic[s[i]]                  # So, subtract it
-#             else:                                       # if right Roman is smaller than left, that is normal
+#             else:                                       # if right Roman is smaller than left, that is normal expression
 #                 num += Roman_Dic[s[i]]                  # So, just add it
 #         return num + Roman_Dic[s[-1]]                   # add rightmost Roman because that is not in the for loop range
 
