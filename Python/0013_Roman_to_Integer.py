@@ -11,7 +11,7 @@
 #             if Roman_Dic[s[i]] < Roman_Dic[s[i+1]]:     # if right Roman is bigger than left, that is the expression of 4
 #                 num -= Roman_Dic[s[i]]                  # So, subtract it
 #             else:                                       # if right Roman is smaller than left, that is normal
-#                 num += Roman_Dic[s[i]]                  # So, just add them
+#                 num += Roman_Dic[s[i]]                  # So, just add it
 #         return num + Roman_Dic[s[-1]]                   # add right last Roman because that is not in for loop range
 
 
