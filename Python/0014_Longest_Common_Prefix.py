@@ -11,7 +11,7 @@
 #         if not strs:                                # if strs list is empty,
 #             return ""
 # 
-#         shortest = min(strs, key=len)               # assign shortest word in strs by length
+#         shortest = min(strs, key=len)               # assign the shortest word in strs list by length
 # 
 #         for index, char in enumerate(shortest):
 #             for others in strs:
