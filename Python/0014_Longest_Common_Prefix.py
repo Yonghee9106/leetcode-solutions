@@ -14,7 +14,7 @@
 #         shortest = min(strs, key=len)               # assign the shortest word in strs list by length
 # 
 #         for index, char in enumerate(shortest):
-#             for others in strs:
+#             for others in strs:                     # compare shortest with other words in strs list
 #                 if others[index] != char:           # if any character from left is different,
 #                     return shortest[:index]         # return before that index
 #         return shortest                             # if there is no difference between the shortest and other words in strs, return shortest
