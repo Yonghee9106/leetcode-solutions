@@ -9,7 +9,7 @@ class Solution:
                 stack.append(ch)                                # add it in the list
             else:
                 if len(stack) > 0 and stack[-1] == dic[ch]:     # if the closed bracket is paired with the last bracket of the stack
-                    stack.pop()
+                    stack.pop()                                 # pop it
                 else:
                     return False
         return len(stack) == 0
