@@ -11,7 +11,7 @@ class Solution:
                 if len(stack) > 0 and stack[-1] == dic[ch]:     # if the closed bracket is paired with the last bracket of the stack
                     stack.pop()                                 # pop it
                 else:                                           # if not paired,
-                    return False
+                    return False                                # it is not valid parentheses
         return len(stack) == 0
 
 
