@@ -6,7 +6,7 @@ class Solution:
 
         for ch in s:
             if ch in dic_open:                                  # if ch is open bracket
-                stack.append(ch)
+                stack.append(ch)                                # add it in the list
             else:
                 if len(stack) > 0 and stack[-1] == dic[ch]:
                     stack.pop()
