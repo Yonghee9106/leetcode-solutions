@@ -1,7 +1,7 @@
 class Solution:
     def isValid(self, s: str) -> bool:
         stack = []
-        dic = {')': '(', '}': '{', ']': '['}
+        dic = {')': '(', '}': '{', ']': '['}                    # key: closed bracket, value: open bracket
         dic_open = dic.values()
 
         for ch in s:
