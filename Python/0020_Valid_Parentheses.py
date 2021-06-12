@@ -5,7 +5,7 @@ class Solution:
         dic_open = dic.values()
 
         for ch in s:
-            if ch in dic_open:
+            if ch in dic_open:                                  # if ch is open bracket
                 stack.append(ch)
             else:
                 if len(stack) > 0 and stack[-1] == dic[ch]:
