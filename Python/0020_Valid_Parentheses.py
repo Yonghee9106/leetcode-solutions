@@ -8,7 +8,7 @@ class Solution:
             if ch in dic_open:                                  # if ch is open bracket
                 stack.append(ch)                                # add it in the list
             else:
-                if len(stack) > 0 and stack[-1] == dic[ch]:
+                if len(stack) > 0 and stack[-1] == dic[ch]:     # if the closed bracket is paired with the last bracket of the stack
                     stack.pop()
                 else:
                     return False
