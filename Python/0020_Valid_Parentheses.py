@@ -10,7 +10,7 @@ class Solution:
             else:
                 if len(stack) > 0 and stack[-1] == dic[ch]:     # if the closed bracket is paired with the last bracket of the stack
                     stack.pop()                                 # pop it
-                else:
+                else:                                           # if not paired,
                     return False
         return len(stack) == 0
 
