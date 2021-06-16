@@ -1,5 +1,5 @@
 class Solution:
-    def isValid(self, s: str) -> bool:
+    def isValid(self, s: str) -> bool:                          # type s: str, return type: bool
         stack = []
         dic = {')': '(', '}': '{', ']': '['}                    # key: closed bracket, value: open bracket
         dic_open = dic.values()                                 # dic_open: open bracket
