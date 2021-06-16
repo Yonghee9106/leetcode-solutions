@@ -23,4 +23,4 @@
 | 18 | [4Sum](https://leetcode.com/problems/4sum/) |  | Medium |  |
 | 19 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) |  | Medium |  |
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) |  | Easy |  |
-| 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) |  |  |  |
+| 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) |  | Easy |  |
