@@ -4,7 +4,7 @@ class Solution:
         dic = {')': '(', '}': '{', ']': '['}                    # key: closed bracket, value: open bracket
         dic_open = dic.values()                                 # dic_open: open bracket
 
-        for ch in s:                                            # for all character in s
+        for ch in s:                                            # for all characters in s
             if ch in dic_open:                                  # if ch is open bracket
                 stack.append(ch)                                # add it in the stack list
             else:                                               # if ch is closed bracket
