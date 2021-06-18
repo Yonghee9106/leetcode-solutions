@@ -25,4 +25,4 @@
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) |  | Easy |  |
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) |  | Easy |  |
 | 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) |  | Medium |  |
-| 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) |  | Medium |  |
+| 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) |  |  |  |
