@@ -26,4 +26,4 @@
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) |  | Easy |  |
 | 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) |  | Medium |  |
 | 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) |  | Hard |  |
-| 24 |  |  |  |  |
+| 24 | [Swap Nodes in Pairs] |  |  |  |
