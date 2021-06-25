@@ -32,4 +32,4 @@
 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) |  | Easy |  |
 | 28 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/) |  | Easy |  |
 | 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) |  | Medium |  |
-| 30 | [Substring with Concatenation of All Words] |  |  |  |
+| 30 | [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) |  |  |  |
