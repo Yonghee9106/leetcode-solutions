@@ -35,4 +35,4 @@
 | 30 | [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) |  | Hard |  |
 | 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/) |  | Medium |  |
 | 32 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) |  | Hard |  |
-| 33 |  |  |  |  |
+| 33 | [Search in Rotated Sorted Array] |  |  |  |
