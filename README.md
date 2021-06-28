@@ -36,4 +36,4 @@
 | 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/) |  | Medium |  |
 | 32 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) |  | Hard |  |
 | 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) |  | Medium |  |
-| 34 | [Find First and Last Position of Element in Sorted Array] |  |  |  |
+| 34 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) |  |  |  |
