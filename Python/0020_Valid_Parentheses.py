@@ -2,7 +2,7 @@ class Solution:
     def isValid(self, s: str) -> bool:                          # type s: str, return type: bool
         stack = []                                              # stack list where we will store open brackets
         brkt = {')': '(', '}': '{', ']': '['}                   # key: closed brackets, value: open brackets
-        brkt_open = brkt.values()                               # brkt_open: open bracket
+        brkt_open = brkt.values()                               # brkt_open: open brackets
 
         for ch in s:                                            # for all characters in input s
             if ch in brkt_open:                                 # if ch is open bracket
