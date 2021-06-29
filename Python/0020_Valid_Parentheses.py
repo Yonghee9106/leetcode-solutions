@@ -6,7 +6,7 @@ class Solution:
 
         for ch in s:                                            # for all characters in input s
             if ch in brkt_open:                                 # if ch is open bracket
-                stack.append(ch)                                # add it in the stack list
+                stack.append(ch)                                # append ch on the stack list
             else:                                               # if ch is closed bracket
                 if len(stack) > 0 and stack[-1] == brkt[ch]:    # and if the closed bracket is paired with last bracket of the stack
                     stack.pop()                                 # pop it
