@@ -12,7 +12,7 @@ class Solution:
                     stack.pop()                                 # pop it
                 else:                                           # if not paired,
                     return False                                # it is not valid parentheses
-        return len(stack) == 0                                  # if all open brackets on the stack list is paired, it is valid parentheses
+        return len(stack) == 0                                  # if all open brackets on the stack is paired, it is valid parentheses
 
 
 print(Solution().isValid("()[]{}"))
