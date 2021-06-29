@@ -22,7 +22,7 @@
 | 17 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) |  | Medium |  |
 | 18 | [4Sum](https://leetcode.com/problems/4sum/) |  | Medium |  |
 | 19 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) |  | Medium |  |
-| 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) |  | Easy |  |
+| 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [Python](https://github.com/Yonghee9106/Leetcode-Solutions/blob/main/Python/0020_Valid_Parentheses.py) | Easy |  |
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) |  | Easy |  |
 | 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) |  | Medium |  |
 | 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) |  | Hard |  |
