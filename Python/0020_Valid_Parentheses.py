@@ -8,7 +8,7 @@ class Solution:
             if ch in brkt_open:                                 # if ch is open bracket
                 stack.append(ch)                                # append ch on the stack list
             else:                                               # if ch is closed bracket
-                if len(stack) > 0 and stack[-1] == brkt[ch]:    # and if the closed bracket is paired with last bracket of the stack
+                if len(stack) > 0 and stack[-1] == brkt[ch]:    # and if the closed bracket is paired with last bracket on the stack
                     stack.pop()                                 # pop it
                 else:                                           # if not paired,
                     return False                                # it is not valid parentheses
