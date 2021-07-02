@@ -39,4 +39,4 @@
 | 34 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) |  | Medium |  |
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) |  | Easy |  |
 | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) |  | Medium |  |
-|  |  |  |  |  |
+| 37 |  |  |  |  |
