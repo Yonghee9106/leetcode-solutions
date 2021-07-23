@@ -54,4 +54,4 @@
 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) |  | Medium |  |
 | 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) |  | Medium  |  |
 | 51 | [N-Queens](https://leetcode.com/problems/n-queens/) |  | Hard |  |
-| 52 | [N-Queens II](https://leetcode.com/problems/n-queens-ii/) |  |  |  |
+| 52 | [N-Queens II](https://leetcode.com/problems/n-queens-ii/) |  | Hard |  |
