@@ -55,4 +55,4 @@
 | 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) |  | Medium  |  |
 | 51 | [N-Queens](https://leetcode.com/problems/n-queens/) |  | Hard |  |
 | 52 | [N-Queens II](https://leetcode.com/problems/n-queens-ii/) |  | Hard |  |
-| 52 | [N-Queens II] |  |  |  |
+| 52 |  |  |  |  |
