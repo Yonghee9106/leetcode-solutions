@@ -56,4 +56,4 @@
 | 51 | [N-Queens](https://leetcode.com/problems/n-queens/) |  | Hard |  |
 | 52 | [N-Queens II](https://leetcode.com/problems/n-queens-ii/) |  | Hard |  |
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) |  | Easy |  |
-| 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) |  | Easy |  |
+| 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) |  |  |  |
