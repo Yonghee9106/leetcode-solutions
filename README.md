@@ -57,4 +57,4 @@
 | 52 | [N-Queens II](https://leetcode.com/problems/n-queens-ii/) |  | Hard |  |
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) |  | Easy |  |
 | 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) |  | Medium |  |
-| 55 | [Jump Game] |  |  |  |
+| 55 | [Jump Game](https://leetcode.com/problems/jump-game/) |  |  |  |
