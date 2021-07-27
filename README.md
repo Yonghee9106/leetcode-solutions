@@ -59,4 +59,4 @@
 | 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) |  | Medium |  |
 | 55 | [Jump Game](https://leetcode.com/problems/jump-game/) |  | Medium |  |
 | 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) |  | Medium |  |
-| 56 | [Merge Intervals] |  |  |  |
+| 56 |  |  |  |  |
