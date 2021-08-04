@@ -68,4 +68,4 @@
 | 63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) |  | Medium |  |
 | 64 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) |  | Medium |  |
 | 65 | [Valid Number](https://leetcode.com/problems/valid-number/) |  | Hard |  |
-| 65 | [Valid Number] |  |  |  |
+| 65 |  |  |  |  |
