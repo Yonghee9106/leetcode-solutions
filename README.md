@@ -70,3 +70,4 @@
 | 65 | [Valid Number](https://leetcode.com/problems/valid-number/) |  | Hard |  |
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/) |  | Easy |  |
 | 67 | [Add Binary](https://leetcode.com/problems/add-binary/) |  | Easy |  |
+| 67 | [Add Binary](https://leetcode.com/problems/add-binary/) |  | Easy |  |
