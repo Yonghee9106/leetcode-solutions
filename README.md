@@ -63,4 +63,3 @@
 | 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) |  | Easy |  |
 | 59 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) |  | Medium |  |
 | 60 | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/) |  | Hard |  |
-| 61 | [Rotate List](https://leetcode.com/problems/rotate-list/) |  | Medium |  |
