@@ -53,4 +53,3 @@
 | 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/) |  | Medium |  |
 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) |  | Medium |  |
 | 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) |  | Medium  |  |
-| 51 | [N-Queens](https://leetcode.com/problems/n-queens/) |  | Hard |  |
