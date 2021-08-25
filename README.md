@@ -32,4 +32,4 @@
 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) |  | Easy |  |
 | 28 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/) |  | Easy |  |
 | 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) |  | Medium |  |
-| 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) |  |  |  |
+| 29 | [Divide Two Integers] |  |  |  |
