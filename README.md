@@ -29,4 +29,4 @@
 | 24 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) |  | Medium |  |
 | 25 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) |  | Hard |  |
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) |  | Easy |  |
-| 26 | [Remove Duplicates from Sorted Array] |  |  |  |
+| 26 |  |  |  |  |
