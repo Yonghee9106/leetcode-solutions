@@ -30,4 +30,4 @@
 | 25 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) |  | Hard |  |
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) |  | Easy |  |
 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) |  | Easy |  |
-| 27 | |  |  |  |
+| 27 |  |  |  |  |
