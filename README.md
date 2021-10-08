@@ -31,4 +31,4 @@
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) |  | Easy |  |
 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) |  | Easy |  |
 | 28 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/) |  | Easy |  |
-|  |  |  |  |  |
+| 29 |  |  |  |  |
