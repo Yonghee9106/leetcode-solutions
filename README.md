@@ -48,4 +48,4 @@
 | 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) |  | Medium |  |
 | 44 | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) |  | Hard |  |
 | 45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) |  | Medium |  |
-| 45 | [Jump Game II] |  |  |  |
+| 45 | [ |  |  |  |
