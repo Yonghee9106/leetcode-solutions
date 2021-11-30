@@ -42,4 +42,4 @@
 | 37 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) |  | Hard |  |
 | 38 | [Count and Say](https://leetcode.com/problems/count-and-say/) |  | Medium |  |
 | 39 | [Combination Sum](https://leetcode.com/problems/combination-sum/) |  | Medium |  |
-| 40 |  |  |  |  |
+| 40 | [Combination Sum II] |  |  |  |
