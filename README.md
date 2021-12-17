@@ -44,4 +44,4 @@
 | 39 | [Combination Sum](https://leetcode.com/problems/combination-sum/) |  | Medium |  |
 | 40 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) |  | Medium |  |
 | 41 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) |  | Hard |  |
-| 41 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) |  |  |  |
+| 41 | [First Missing Positive] |  |  |  |
