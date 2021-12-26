@@ -46,4 +46,3 @@
 | 41 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) |  | Hard |  |
 | 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) |  | Hard |  |
 | 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) |  | Medium |  |
-| 44 | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) |  | Hard |  |
