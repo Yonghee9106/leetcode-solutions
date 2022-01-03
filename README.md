@@ -45,4 +45,4 @@
 | 40 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) |  | Medium |  |
 | 41 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) |  | Hard |  |
 | 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) |  | Hard |  |
-| 43 | [Multiply Strings] |  |  |  |
+| 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) |  |  |  |
