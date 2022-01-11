@@ -19,4 +19,4 @@
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [Python](https://github.com/Yonghee9106/leetcode-solutions/blob/main/Python/0014_Longest_Common_Prefix.py) | Easy | O(n) |
 | 15 | [3Sum](https://leetcode.com/problems/3sum/) |  | Medium |  |
 | 16 | [3Sum Closest](https://leetcode.com/problems/3sum-closest/) |  | Medium |  |
-| 17 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) |  
+| 17 | [Letter Combinations of a Phone Number]
