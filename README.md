@@ -16,4 +16,4 @@
 | 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) |  | Medium |  |
 | 12 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) |  | Medium |  |
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [Python](https://github.com/Yonghee9106/leetcode-solutions/blob/main/Python/0013_Roman_to_Integer.py) | Easy | O(1) |
-| 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [Python]
+| 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)
