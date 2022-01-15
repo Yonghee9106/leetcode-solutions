@@ -13,4 +13,4 @@
 | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) |  | Medium |  |
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [Python](https://github.com/Yonghee9106/leetcode-solutions/blob/main/Python/0009_Palindrome_Number.py) | Easy | O(log<sub>10</sub>(n)) |
 | 10 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) |  | Hard |  |
-| 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) |  | Medium |  |
+| 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) 
