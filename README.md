@@ -12,4 +12,3 @@
 | 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | [Python](https://github.com/Yonghee9106/leetcode-solutions/blob/main/Python/0007_Reverse_Integer.py) | Easy | O(log<sub>10</sub>(n)) |
 | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) |  | Medium |  |
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [Python](https://github.com/Yonghee9106/leetcode-solutions/blob/main/Python/0009_Palindrome_Number.py) | Easy | O(log<sub>10</sub>(n)) |
-| 10 |
