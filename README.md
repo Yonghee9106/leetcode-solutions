@@ -9,4 +9,4 @@
 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) |  | Hard |  |
 | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) |  | Medium |  |
 | 6 | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/) |  | Medium |  |
-| 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | [Python]
+| 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) |
