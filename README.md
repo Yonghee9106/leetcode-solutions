@@ -10,4 +10,3 @@
 | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) |  | Medium |  |
 | 6 | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/) |  | Medium |  |
 | 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | [Python](https://github.com/Yonghee9106/leetcode-solutions/blob/main/Python/0007_Reverse_Integer.py) | Easy | O(log<sub>10</sub>(n)) |
-| 8 | 
