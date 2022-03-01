@@ -1,5 +1,5 @@
 class Solution:
-    def twoSum(self, nums, target):             # type nums: List[int], type target: int
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
         diff_dic = {}                           # key: num, value: index
         
         for index, num in enumerate(nums):      # enumerate() returns index and value(num)
