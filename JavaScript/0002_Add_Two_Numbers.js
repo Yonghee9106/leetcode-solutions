@@ -11,12 +11,12 @@
  * @return {ListNode}
  */
 var addTwoNumbers = function(l1, l2) {
-    let summedList = new ListNode(0, null);                 // new linked list to return the sum
+    let summedList = new ListNode(0, null);                 // create new linked list to return the sum of two input linked-lists
     let head = summedList;                                  // copy linked list but same reference
     let sum = 0;
     let carry = 0;
 
-    while(l1 !== null || l2 !== null || sum > 0) {          // if input linked-lists are not at the tails and sum is bigger than 0
+    while(l1 !== null || l2 !== null || sum > 0) {          // if input linked-lists are not at the tails or sum is bigger than 0
         if(l1 !== null) {                                   // if input linked list l1 is not at the tail
             sum += l1.val;                                  // add to sum
             l1 = l1.next;                                   // and go to next node
@@ -41,7 +41,7 @@ var addTwoNumbers = function(l1, l2) {
 
 
 ///////////////////////////////////////////////////////////////////////////
-///////////////////////// Test Input linked-lists /////////////////////////
+///////////////////////// Test Input Linked-lists /////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 const list1 = {
     val: 2,
