@@ -43,7 +43,7 @@ var addTwoNumbers = function(l1, l2) {
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////// Test Input Linked-lists /////////////////////////
 ///////////////////////////////////////////////////////////////////////////
-const list1 = {
+const linkedList1 = {
     val: 2,
     next: {
         val: 4,
@@ -53,7 +53,7 @@ const list1 = {
         }
     }
 };
-const list2 = {
+const linkedList2 = {
     val: 5,
     next: {
         val: 6,
