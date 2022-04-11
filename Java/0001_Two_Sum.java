@@ -1,6 +1,6 @@
 class Solution {
     public int[] twoSum(int[] nums, int target) {
-        int[] result = new int[2];                                      // instantiating new array for result
+        int[] result = new int[2];                                      // instantiate new array for result
         int diff;
 
         Map<Integer, Integer> map = new HashMap<Integer, Integer>();    // key: difference, value: index
