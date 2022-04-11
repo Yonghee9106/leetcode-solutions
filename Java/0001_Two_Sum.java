@@ -16,7 +16,6 @@ class Solution {
             }
             map.put(nums[i], i);                                        // if not existing, add nums[i] as a key and index as a value
         }
-
         return result;
     }
 }
