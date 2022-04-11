@@ -8,7 +8,7 @@ class Solution:
             if diff in diff_dic:                # if there is a diff in diff_dic
                 return [diff_dic[diff], index]  # diff's index and current index is the two sum combination
             
-            diff_dic[num] = index               # if there isn't a diff, add current num as key and index as value
+            diff_dic[num] = index               # if there isn't a diff, add current num as a key and index as value
             
         return print("No two sum solution!")
 
