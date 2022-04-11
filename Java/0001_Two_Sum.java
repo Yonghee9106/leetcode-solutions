@@ -3,7 +3,7 @@ class Solution {
         int[] result = new int[2];                                      // instantiate new array for result
         int diff;
 
-        Map<Integer, Integer> map = new HashMap<Integer, Integer>();    // key: difference, value: index
+        Map<Integer, Integer> map = new HashMap<Integer, Integer>();    // create hashmap (key: difference, value: index)
 
         for(int i=0; i<nums.length; i++) {
             diff = target - nums[i];
