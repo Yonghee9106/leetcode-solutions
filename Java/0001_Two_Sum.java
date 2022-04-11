@@ -14,7 +14,7 @@ class Solution {
 
                 return result;                                          // return diff's index and current index
             }
-            map.put(nums[i], i);                                        // if not existing, add nums[i] as key and index as a value
+            map.put(nums[i], i);                                        // if not existing, add nums[i] as a key and index as a value
         }
 
         return result;
