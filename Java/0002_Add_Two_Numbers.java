@@ -24,7 +24,7 @@ class Solution {
                 sum += l2.val;                                  // add to sum
                 l2 = l2.next;                                   // and go to next node
             }
-            if(sum >= 10) {                                     // if sum is bigger than 10
+            if(sum >= 10) {                                     // if sum is greater than or equal to 10
                 carry = sum / 10;                               // create carry
                 sum = sum % 10;                                 // and leave last digit only
             }
