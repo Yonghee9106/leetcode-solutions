@@ -10,7 +10,7 @@
  */
 class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        ListNode summedList = new ListNode(0, null);            // create new linked for return
+        ListNode summedList = new ListNode(0, null);            // create new linked list for return
         ListNode head = summedList;                             // copy linked list but same reference
         int carry = 0;
         int sum = 0;
