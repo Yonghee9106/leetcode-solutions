@@ -15,7 +15,7 @@ class Solution {
         int carry = 0;
         int sum = 0;
 
-        while(l1!=null || l2!=null || sum>0) {                  // if input linked-lists are not at the tails or sum is bigger than 0
+        while(l1!=null || l2!=null || sum>0) {                  // while input linked-lists are not at the tails or sum is bigger than 0
             if(l1 != null) {                                    // if input linked list l1 is not at the tail
                 sum += l1.val;                                  // add to sum
                 l1 = l1.next;                                   // and go to next node
