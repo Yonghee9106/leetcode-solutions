@@ -10,7 +10,7 @@ class Solution:
         sum = 0
         carry = 0
 
-        while (l1 or l2 or sum>0):                  # if input linked-lists are not none or sum is bigger than 0
+        while (l1 or l2 or sum>0):                  # while input linked-lists are not none or sum is bigger than 0
             if l1:                                  # if input linked list l1 is not at the tail
                 sum += l1.val                       # add to sum
                 l1 = l1.next                        # and go to next node
