@@ -6,14 +6,14 @@ class Solution {
 
         Set<Character> substring = new HashSet<>();                     // hashset can't contain duplicate values
 
-        while(endIndex < s.length()) {                                  // while end index is less than input string s
-            if(!substring.contains(s.charAt(endIndex))) {               // if substring doesn't contains duplicate value
+        while(endIndex < s.length()) {                                  // while end index is less than the input s.length
+            if(!substring.contains(s.charAt(endIndex))) {               // if substring doesn't contain duplicate value
                 substring.add(s.charAt(endIndex));                      // add that character to substring
                 endIndex++;
                 maxLength = Math.max(maxLength, substring.size());      // find max
             } else {                                                    // if substring contains duplicate value
-                substring.remove(s.charAt(startIndex));                 // remove first start index character
-                startIndex++;                                           // so that we can search other substrings
+                substring.remove(s.charAt(startIndex));                 // remove start index character
+                startIndex++;                                           // so that we can search another substring
             }
         }
         return maxLength;
