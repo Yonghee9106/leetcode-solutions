@@ -1,7 +1,7 @@
 class Solution {
     public int lengthOfLongestSubstring(String s) {
-        if(s.length() == 0) {
-            return 0;
+        if(s.length() == 0) {                                           // if size of input is 0,
+            return 0;                                                   // return 0, no substring
         }
 
         int startIndex = 0;                                             // first index of substring
