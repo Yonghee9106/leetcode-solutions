@@ -1,5 +1,9 @@
 class Solution {
     public int lengthOfLongestSubstring(String s) {
+        if(s.length() == 0) {
+            return 0;
+        }
+
         int startIndex = 0;                                             // first index of substring
         int endIndex = 0;                                               // last index of substring
         int maxLength = 0;                                              // max length of substring
