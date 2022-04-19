@@ -15,7 +15,7 @@ var lengthOfLongestSubstring = function(s) {
         // if there's duplicated character, move start index next to duplicated character index
         if(substring.has(s[i])) {                           // if current character is existing already in substring,
             startIndex = Math.max(substring.get(s[i])+1, startIndex);   // move start index forward, can't go backward
-        }                                                   // substring.get(s[i])+1 == duplicated character index
+        }                                                   // substring.get(s[i]) == duplicated character index
 
         substring.set(s[i], i);                             // add current character and index to substring
         maxLen = Math.max(i-startIndex+1, maxLen);          // get max length of substring
