@@ -14,11 +14,11 @@ var lengthOfLongestSubstring = function(s) {
     for(let i=0; i<s.length; i++) {                         // for all input s characters
         if(substring.has(s[i])) {                           // if current character is existing already in substring,
             startIndex = Math.max(substring.get(s[i])+1, startIndex);   // move start index forward, can't go backward
-        }
+        }                                                   // substring.get(s[i])+1 == duplicated character index
 
         substring.set(s[i], i);                             // add current character and index to substring
         maxLen = Math.max(i-startIndex+1, maxLen);          // get max length of substring
-    }
-    
+    }                                                       // i-startIndex+1 == length of current substring
+
     return maxLen;
 };
