@@ -8,7 +8,6 @@ var lengthOfLongestSubstring = function(s) {
     }
 
     const substring = new Map();                            // key: character, value: index
-
     let startIndex = 0;                                     // start index of substring
     let maxLen = 0;                                         // max length of substring
     
@@ -17,8 +16,9 @@ var lengthOfLongestSubstring = function(s) {
             startIndex = Math.max(substring.get(s[i])+1, startIndex);   // move start index forward, can't go backward
         }
 
-        substring.set(s[i], i);                             // add current character and index
+        substring.set(s[i], i);                             // add current character and index to substring
         maxLen = Math.max(i-startIndex+1, maxLen);          // get max length of substring
     }
+    
     return maxLen;
 };
