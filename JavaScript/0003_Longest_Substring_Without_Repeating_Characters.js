@@ -3,17 +3,17 @@
  * @return {number}
  */
 var lengthOfLongestSubstring = function(s) {
-    if(s.length == 0) {                                     // if size of input is 0,
+    if(s.length == 0) {                                     // if size of input s is 0,
         return 0;                                           // return 0, no substring
     }
 
     const substring = new Map();                            // key: character, value: index
 
-    var startIndex = 0;
-    var maxLen = 0;
+    let startIndex = 0;                                     // start index of substring
+    let maxLen = 0;                                         // max length of substring
     
     for(let i=0; i<s.length; i++) {                         // for all input s characters
-        if(substring.has(s[i])) {                           // if current character is existing already,
+        if(substring.has(s[i])) {                           // if current character is existing already in substring,
             startIndex = Math.max(substring.get(s[i])+1, startIndex);   // move start index forward, can't go backward
         }
 
