@@ -3,6 +3,10 @@
  * @return {number}
  */
 var lengthOfLongestSubstring = function(s) {
+    if(s.length == 0) {
+        return 0;
+    }
+
     const substring = new Map();
 
     var startIndex = 0;
