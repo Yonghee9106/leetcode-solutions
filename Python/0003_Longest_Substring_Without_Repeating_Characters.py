@@ -3,6 +3,9 @@ class Solution:
         startIndex = 0
         maxLength = 0
         substring = {}
+
+        if len(s) == 0:
+            return 0
         
         for i in range(len(s)):
             if s[i] in substring and startIndex <= substring[s[i]]:
