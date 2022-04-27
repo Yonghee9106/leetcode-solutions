@@ -1,12 +1,8 @@
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
-        int nums1Size = nums2.length;
-        int nums2Size = nums2.length;
-        if(nums1Size < nums2Size) {
-            return findMedianSortedArrays(nums2, nums1);
-        }
-
-        
+        if(nums1 == null && nums2 == null) {
+            return 0;
+        }      
     }
 }
 
