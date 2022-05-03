@@ -13,7 +13,10 @@ class Solution {
         }
     }
 
-    public static int findKthSmallest(int[] a, int m, int begin1, int[] b, int n, int begin2, int k) {
-
+    public static int findKthSmallest(int[] nums1, int len1, int begin1, int[] nums2, int len2, int begin2, int kth) {
+        if(len1 > len2)
+            return findKthSmallest(nums2, len2, begin2, nums1, len1, begin1, kth);
+        if(len1 == 0)
+            return nums2[begin2 + kth - 1];
     }
 }
