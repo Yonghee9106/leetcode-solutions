@@ -18,5 +18,7 @@ class Solution {
             return findKthSmallest(nums2, len2, begin2, nums1, len1, begin1, kth);
         if(len1 == 0)
             return nums2[begin2 + kth - 1];
+        if(kth == 1)
+            return Integer.min(nums1[begin1], nums2[begin2]);
     }
 }
