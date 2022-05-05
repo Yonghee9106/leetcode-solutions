@@ -20,5 +20,8 @@ class Solution {
             return nums2[begin2 + kth - 1];
         if(kth == 1)
             return Integer.min(nums1[begin1], nums2[begin2]);
+
+        int nums1Part = Integer.min(kth/2, len1);
+        int nums2Part = kth = nums1Part;
     }
 }
