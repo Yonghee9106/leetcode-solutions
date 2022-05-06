@@ -23,5 +23,8 @@ class Solution {
 
         int nums1Part = Integer.min(kth/2, len1);
         int nums2Part = kth = nums1Part;
+
+        if(nums1[begin1 + nums1Part - 1] == nums2[begin2 + nums2Part - 1])
+            return nums1[begin1 + nums1Part - 1];
     }
 }
