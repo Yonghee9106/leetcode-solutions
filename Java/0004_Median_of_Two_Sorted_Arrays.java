@@ -26,5 +26,9 @@ class Solution {
 
         if(nums1[begin1 + nums1Part - 1] == nums2[begin2 + nums2Part - 1])
             return nums1[begin1 + nums1Part - 1];
+        else if(nums1[begin1 + nums1Part - 1] > nums2[begin2 + nums2Part - 1])
+            return findKthSmallest(nums1, nums1Part, begin1, nums2, len2 - nums2Part, begin2 + nums2Part, kth - nums2Part);
+        else
+            return findKthSmallest(nums1, len1 - nums1Part, begin1 + nums1Part, nums2, nums2Part, begin2, kth - nums1Part);
     }
 }
