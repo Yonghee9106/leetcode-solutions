@@ -30,3 +30,8 @@ class Solution {
             return findKthSmallest(nums1, len1 - nums1part, begin1 + nums1part, nums2, len2, begin2, kth - nums1part);
     }
 }
+
+
+
+//
+//
