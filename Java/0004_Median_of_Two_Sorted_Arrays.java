@@ -10,7 +10,7 @@ class Solution {
         
         int nums1Low = 0;
         int nums1High = nums1Len;
-        // find the point where all left side numbers are smaller than right side numbers
+        // find the partition where all left side numbers of nums1 and nums2 are smaller than right side numbers
         while (nums1Low <= nums1High) {
             int nums1Partition = (nums1Low + nums1High)/2;
             int nums2Partition = (nums1Len + nums2Len + 1)/2 - nums1Partition;
