@@ -13,7 +13,7 @@ class Solution {
         // find the partition where all left side numbers of nums1 and nums2 are smaller than right side numbers
         while (nums1Low <= nums1High) {
             // if the total length of two arrays is even, the number of left side numbers == the number of right side numbers
-            // if the total length of two arrays is odd, the number of left sisde numbers + 1 == the number of right side numbers
+            // if the total length of two arrays is odd, the number of left side numbers + 1 == the number of right side numbers
             int nums1Partition = (nums1Low + nums1High)/2;
             int nums2Partition = (nums1Len + nums2Len + 1)/2 - nums1Partition;
 
