@@ -1,33 +1,37 @@
 class Solution {
-    public static double findMedianSortedArrays(int[] nums1, int[] nums2) {
-        int nums1len = nums1.length;
-        int nums2len = nums2.length;
-        int sumLen = nums1len + nums2len;
-
-        if (sumLen % 2 != 0) {
-            return findKthSmallest(nums1, nums1len, 0, nums2, nums2len, 0, sumLen / 2 + 1);
-        } else {
-            return (findKthSmallest(nums1, nums1len, 0, nums2, nums2len, 0, sumLen / 2)
-                    + findKthSmallest(nums1, nums1len, 0, nums2, nums2len, 0, sumLen / 2 + 1)) / 2.0;
+    public double findMedianSortedArrays(int nums1[], int nums2[]) {
+        int nums1Len = nums1.length;
+        int nums2Len = nums2.length;
+        
+        if (nums1Len > nums2Len) {
+            return findMedianSortedArrays(nums2, nums1);
         }
-    }
-    
-    public static int findKthSmallest(int[] nums1, int len1, int begin1, int[] nums2, int len2, int begin2, int kth) {
-        if (len1 > len2)
-            return findKthSmallest(nums2, len2, begin2, nums1, len1, begin1, kth);
-        if (len1 == 0)
-            return nums2[begin2 + kth - 1];
-        if (kth == 1)
-            return Integer.min(nums1[begin1], nums2[begin2]);
+        
+        int nums1Low = 0;
+        int nums1High = nums1Len;
+        while (nums1Low <= nums1High) {
+            int nums1Partition = (nums1Low + nums1High)/2;
+            int nums2Partition = (nums1Len + nums2Len + 1)/2 - nums1Partition;
 
-        int nums1part = Integer.min(kth / 2, len1);
-        int nums2part = kth - nums1part;
-        if (nums1[begin1 + nums1part - 1] == nums2[begin2 + nums2part - 1])
-            return nums1[begin1 + nums1part - 1];
-        else if (nums1[begin1 + nums1part - 1] > nums2[begin2 + nums2part - 1])
-            return findKthSmallest(nums1, len1, begin1, nums2, len2 - nums2part, begin2 + nums2part, kth - nums2part);
-        else
-            return findKthSmallest(nums1, len1 - nums1part, begin1 + nums1part, nums2, len2, begin2, kth - nums1part);
+            int nums1LeftMax = (nums1Partition == 0) ? Integer.MIN_VALUE : nums1[nums1Partition - 1];
+            int nums1MinRight = (nums1Partition == nums1Len) ? Integer.MAX_VALUE : nums1[nums1Partition];
+
+            int nums2LeftMax = (nums2Partition == 0) ? Integer.MIN_VALUE : nums2[nums2Partition - 1];
+            int nums2RightMin = (nums2Partition == nums2Len) ? Integer.MAX_VALUE : nums2[nums2Partition];
+
+            if (nums1LeftMax <= nums2RightMin && nums2LeftMax <= nums1MinRight) {
+                if ((nums1Len + nums2Len) % 2 == 0) {
+                    return ((double)Math.max(nums1LeftMax, nums2LeftMax) + Math.min(nums1MinRight, nums2RightMin))/2;
+                } else {
+                    return (double)Math.max(nums1LeftMax, nums2LeftMax);
+                }
+            } else if (nums1LeftMax > nums2RightMin) {
+                nums1High = nums1Partition - 1;
+            } else {
+                nums1Low = nums1Partition + 1;
+            }
+        }
+        throw new IllegalArgumentException();
     }
 }
 
