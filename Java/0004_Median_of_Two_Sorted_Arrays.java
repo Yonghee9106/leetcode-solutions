@@ -3,6 +3,7 @@ class Solution {
         int nums1Len = nums1.length;
         int nums2Len = nums2.length;
         
+        // if length of nums1 is bigger than nums2, the nums2 partition can be out of bounds for nums2
         if (nums1Len > nums2Len) {
             return findMedianSortedArrays(nums2, nums1);
         }
@@ -14,15 +15,16 @@ class Solution {
             int nums2Partition = (nums1Len + nums2Len + 1)/2 - nums1Partition;
 
             int nums1LeftMax = (nums1Partition == 0) ? Integer.MIN_VALUE : nums1[nums1Partition - 1];
-            int nums1MinRight = (nums1Partition == nums1Len) ? Integer.MAX_VALUE : nums1[nums1Partition];
+            int nums1RightMin = (nums1Partition == nums1Len) ? Integer.MAX_VALUE : nums1[nums1Partition];
 
             int nums2LeftMax = (nums2Partition == 0) ? Integer.MIN_VALUE : nums2[nums2Partition - 1];
             int nums2RightMin = (nums2Partition == nums2Len) ? Integer.MAX_VALUE : nums2[nums2Partition];
 
-            if (nums1LeftMax <= nums2RightMin && nums2LeftMax <= nums1MinRight) {
-                if ((nums1Len + nums2Len) % 2 == 0) {
-                    return ((double)Math.max(nums1LeftMax, nums2LeftMax) + Math.min(nums1MinRight, nums2RightMin))/2;
-                } else {
+            // if all left side numbers are smaller than right side numbers
+            if (nums1LeftMax <= nums2RightMin && nums2LeftMax <= nums1RightMin) {
+                if ((nums1Len + nums2Len) % 2 == 0) {           // if length of two arrays is even
+                    return ((double)Math.max(nums1LeftMax, nums2LeftMax) + Math.min(nums1RightMin, nums2RightMin))/2;
+                } else {                                        // if length of two arrays is odd
                     return (double)Math.max(nums1LeftMax, nums2LeftMax);
                 }
             } else if (nums1LeftMax > nums2RightMin) {
