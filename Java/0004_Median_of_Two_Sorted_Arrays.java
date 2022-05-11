@@ -10,6 +10,7 @@ class Solution {
         
         int nums1Low = 0;
         int nums1High = nums1Len;
+        // find the point where all left side numbers are smaller than right side numbers
         while (nums1Low <= nums1High) {
             int nums1Partition = (nums1Low + nums1High)/2;
             int nums2Partition = (nums1Len + nums2Len + 1)/2 - nums1Partition;
@@ -41,4 +42,3 @@ class Solution {
 
 // References
 // https://www.youtube.com/watch?v=LPFhl65R7ww
-// https://leetcode.com/problems/median-of-two-sorted-arrays/discuss/2471/Very-concise-O(log(min(MN)))-iterative-solution-with-detailed-explanation
