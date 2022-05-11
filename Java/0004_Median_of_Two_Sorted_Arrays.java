@@ -28,10 +28,10 @@ class Solution {
                 } else {                                        // if length of two arrays is odd
                     return (double)Math.max(nums1LeftMax, nums2LeftMax);
                 }
-            } else if (nums1LeftMax > nums2RightMin) {
-                nums1High = nums1Partition - 1;
-            } else {
-                nums1Low = nums1Partition + 1;
+            } else if (nums1LeftMax > nums2RightMin) {          // if nums1's left max is bigger than nums2's right min
+                nums1High = nums1Partition - 1;                 // move nums1 partition to left side
+            } else {                                            // if nums2's left max is bigger than nums1's right min
+                nums1Low = nums1Partition + 1;                  // move nums1 partition to right side
             }
         }
         throw new IllegalArgumentException();
