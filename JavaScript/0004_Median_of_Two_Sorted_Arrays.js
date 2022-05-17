@@ -11,4 +11,5 @@
 
     let nums1Len = nums1.length;
     let nums2Len = nums2.length;
+    let sumLen = nums1Len + nums2Len;
 };
