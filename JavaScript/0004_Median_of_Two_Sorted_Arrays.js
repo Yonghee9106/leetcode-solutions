@@ -11,5 +11,10 @@
 
     let nums1Len = nums1.length;
     let nums2Len = nums2.length;
-    let sumLen = nums1Len + nums2Len;
+    let nums1Low = 0;
+    let nums1High = nums1Len;
+
+    while(nums1Low <= nums1High) {
+
+    }
 };
