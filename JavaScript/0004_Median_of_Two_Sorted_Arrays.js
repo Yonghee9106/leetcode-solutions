@@ -15,6 +15,7 @@
     let nums1High = nums1Len;
 
     while(nums1Low <= nums1High) {
-
+        const nums1Partition = Math.floor((nums1Low+nums1High)/2);
+        const nums2Partition = Math.floor((nums1Len+nums2Len+1)/2) - nums1Partition;
     }
 };
