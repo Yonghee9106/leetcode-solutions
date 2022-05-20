@@ -17,5 +17,8 @@
     while(nums1Low <= nums1High) {
         const nums1Partition = Math.floor((nums1Low+nums1High)/2);
         const nums2Partition = Math.floor((nums1Len+nums2Len+1)/2) - nums1Partition;
+
+        const nums1LeftMax = nums1Partition == 0 ? Number.NEGATIVE_INFINITY : nums1[nums1Partition - 1];
+        const nums1RightMin = (nums1Partition == nums1Len) ? Number.POSITIVE_INFINITY : nums1[nums1Partition];
     }
 };
