@@ -3,17 +3,18 @@
  * @param {number[]} nums2
  * @return {number}
  */
- var findMedianSortedArrays = function(nums1, nums2) {
-    
+var findMedianSortedArrays = function(nums1, nums2) {
+    let nums1Len = nums1.length;
+    let nums2Len = nums2.length;
+
+    // if length of nums1 is bigger than nums2, the nums2 partition can be out of bounds for nums2
     if(nums1.length > nums2.length) {
         return findMedianSortedArrays(nums2, nums1);
     }
 
-    let nums1Len = nums1.length;
-    let nums2Len = nums2.length;
     let nums1Low = 0;
     let nums1High = nums1Len;
-
+    // find the partition where all left side numbers of nums1 and nums2 are smaller than right side numbers
     while(nums1Low <= nums1High) {
         const nums1Partition = Math.floor((nums1Low+nums1High)/2);
         const nums2Partition = Math.floor((nums1Len+nums2Len+1)/2) - nums1Partition;
