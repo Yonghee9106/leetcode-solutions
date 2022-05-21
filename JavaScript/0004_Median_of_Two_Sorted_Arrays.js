@@ -36,7 +36,6 @@ var findMedianSortedArrays = function(nums1, nums2) {
             nums1High = nums1Partition - 1;             // move nums1 partition to left side
         } else {                                        // if nums2's left max is bigger than nums1's right min
             nums1Low = nums1Partition + 1;              // move nums1 partition to right side
-
         }
     }
 };
