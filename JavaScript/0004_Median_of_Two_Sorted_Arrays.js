@@ -27,15 +27,15 @@ var findMedianSortedArrays = function(nums1, nums2) {
 
         // if all left side numbers are smaller than right side numbers
         if(nums1LeftMax <= nums2RightMin && nums2LeftMax <= nums1RightMin) {
-            const lowMax = Math.max(nums1LeftMax, nums2LeftMax)
+            const lowMax = Math.max(nums1LeftMax, nums2LeftMax);
             if((nums1Len + nums2Len) % 2 == 1) {                            // if length of two arrays is odd
-                return lowMax
+                return lowMax;
             }
             return (lowMax + Math.min(nums1RightMin, nums2RightMin)) / 2    // if length of two arrays is even
-        } else if(nums1LeftMax < nums2RightMin) {
-            nums1Low = nums1Partition + 1
+        } else if(nums1LeftMax > nums2RightMin) {
+            nums1High = nums1Partition - 1;
         } else 
-            nums1High = nums1Partition - 1
+            nums1Low = nums1Partition + 1;
     }
 };
 
