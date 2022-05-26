@@ -2,9 +2,9 @@ class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
         sumLen = len(nums1) + len(nums2)
 
-        if(sumLen % 2 == 1):                    # if total length of two arrays is odd
+        if(sumLen % 2 == 1):
             return self.findKth(nums1, nums2, sumLen//2)
-        else:                                   # if total length of two arrays is even
+        else:
             return (self.findKth(nums1, nums2, sumLen//2-1) + self.findKth(nums1, nums2, sumLen//2)) / 2.0
             
     # find kth biggest element in two arrays
@@ -19,6 +19,7 @@ class Solution:
         if kth == len(nums1) + len(nums2) - 1:
             return max(nums1[-1], nums2[-1])
 
+        # start binary search
         i = len(nums1) // 2
         j = kth - i
         if nums1[i] > nums2[j]:
