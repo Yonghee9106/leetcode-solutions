@@ -8,3 +8,4 @@
 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [Java](https://github.com/Yonghee9106/leetcode-solutions/blob/main/Java/0004_Median_of_Two_Sorted_Arrays.java), [JavaScript](https://github.com/Yonghee9106/leetcode-solutions/blob/main/JavaScript/0004_Median_of_Two_Sorted_Arrays.js), [Python](https://github.com/Yonghee9106/leetcode-solutions/blob/main/Python/0004_Median_of_Two_Sorted_Arrays.py) | Hard | O(log(min(m,n))) |
 | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | | Medium | O($n^2) |
 $a^2 + b^2 = c^2$
+$n^2
