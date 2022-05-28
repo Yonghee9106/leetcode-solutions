@@ -27,7 +27,7 @@ class Solution {
     // from start and end elements, expand mirrored area
     private int expandCenter(String s, int start, int end) {
         while(start >= 0 && end < s.length()) {
-            // if it is mirrored, start goes to left and, end goes to right side of string
+            // if it is mirrored, the start goes to left and, the end goes to right side of string
             if(s.charAt(start) == s.charAt(end)) {
                 start--;
                 end++;
