@@ -17,6 +17,7 @@ var longestPalindrome = function(s) {
             while(startTemp >= 0 && endTemp <= s.length && s[startTemp] === s[endTemp]) {
                 // find the longest palindrome index
                 [startIndex, endIndex] = (endTemp-startTemp+1) > (endIndex-startIndex+1) ? [startTemp, endTemp] : [startIndex, endIndex];
+                // expand mirrored area
                 startTemp--, endTemp++;
             }
         }
