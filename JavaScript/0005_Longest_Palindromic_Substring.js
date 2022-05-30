@@ -6,6 +6,10 @@ var longestPalindrome = function(s) {
     let startIndex = 0;             // start index of palindrome
     let endIndex = 0;               // end index of palindrome
 
+    if(s.length < 2) {
+        return s;
+    }
+    
     // from all elements in s, expand mirrored area to find the longest palindrome
     for (let center1 = 0; center1 < s.length; center1++) {
         // consider both odd and even palindrome
