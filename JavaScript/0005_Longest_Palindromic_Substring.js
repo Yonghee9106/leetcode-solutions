@@ -11,11 +11,13 @@ var longestPalindrome = function(s) {
         // consider both odd and even palindrome
         for (let center2 of [center1, center1+1]) {
             // center1 == center2 for odd palindrome, center1+1 == center2 for even palindrome
-            let l = center1;
-            let r = center2;
-            while(l >= 0 && r <= s.length && s[l] === s[r]) {
-                [startIndex, endIndex] = (r-l+1) > (endIndex-startIndex+1) ? [l, r] : [startIndex, endIndex];
-                l--, r++;
+            let startTemp = center1;
+            let endTemp = center2;
+            // start index >= 0 && end index <= length of s && start and end elements are identical
+            while(startTemp >= 0 && endTemp <= s.length && s[startTemp] === s[endTemp]) {
+                // find the longest palindrome index
+                [startIndex, endIndex] = (endTemp-startTemp+1) > (endIndex-startIndex+1) ? [startTemp, endTemp] : [startIndex, endIndex];
+                startTemp--, endTemp++;
             }
         }
     }
