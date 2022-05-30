@@ -12,7 +12,7 @@ var longestPalindrome = function(s) {
     
     // from all elements in s, expand mirrored area to find the longest palindrome
     for (let center1 = 0; center1 < s.length; center1++) {
-        // consider both odd and even palindrome
+        // consider both odd and even palindromes
         for (let center2 of [center1, center1+1]) {
             // center1 == center2 for odd palindrome, center1+1 == center2 for even palindrome
             let startTemp = center1;
