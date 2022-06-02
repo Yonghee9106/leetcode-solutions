@@ -1,10 +1,13 @@
 class Solution:
     def longestPalindrome(self, s: str) -> str:
+        
         if len(s) == 0:
             return 0
+        
         maxLen = 1
         start = 0
 
+        # from all elements in s, expand mirrored area
         for i in range(len(s)):
             if i-maxLen >=1 and s[i-maxLen-1:i+1]==s[i-maxLen-1:i+1][::-1]:
                 start = i-maxLen-1
