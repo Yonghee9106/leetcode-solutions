@@ -1,20 +1,26 @@
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         
-        if len(s) == 0:
-            return 0
+        # if length of s is less than 0, there is no palindrome
+        if len(s) < 1:
+            return ""
+        # if length of s is 1, s is palindorme itself
+        if len(s) == 1:
+            return s
         
         maxLen = 1
         start = 0
 
-        # from all elements in s, expand mirrored area
-        for i in range(len(s)):
-            if i-maxLen >=1 and s[i-maxLen-1:i+1]==s[i-maxLen-1:i+1][::-1]:
-                start = i-maxLen-1
+        # from all elements in s, find the longest palindrome
+        for end in range(len(s)):
+            # if s[end-maxLen-1:end+1] is palindrome, it means length of palindrome is increased by 2
+            if end-maxLen >=1 and s[end-maxLen-1:end+1]==s[end-maxLen-1:end+1][::-1]:
+                start = end-maxLen-1
                 maxLen+=2
                 continue
-            if i-maxLen >= 0 and s[i-maxLen:i+1]==s[i-maxLen:i+1][::-1]:
-                start=i-maxLen
+            # if s[end-maxLen:end+1] is palindrome, it means length of palindrome is increased by 1
+            if end-maxLen >= 0 and s[end-maxLen:end+1]==s[end-maxLen:end+1][::-1]:
+                start=end-maxLen
                 maxLen+=1
 
         return s[start:start+maxLen]
