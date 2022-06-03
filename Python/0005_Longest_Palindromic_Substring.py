@@ -4,7 +4,7 @@ class Solution:
         # if length of s is less than 0, there is no palindrome
         if len(s) < 1:
             return ""
-        # if length of s is 1, s is palindorme itself
+        # if length of s is 1, s is palindrome itself
         if len(s) == 1:
             return s
         
