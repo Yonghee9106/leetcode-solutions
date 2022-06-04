@@ -7,13 +7,15 @@ class Solution {
         
         StringBuilder zigzag = new StringBuilder();
         int len = s.length();
-        int cycle = 2 * numRows - 2;
+        int cycle = 2 * numRows - 2;                // zigzag cycle formula
 
+        // from row 0, visit all rows and append characters
         for (int row = 0; row < numRows; row++) {
-            for (int i = 0; i + row < len; i += cycle) {
-                zigzag.append(s.charAt(i + row));
-                if (row != 0 && row != numRows - 1 && i + cycle - row < len) {
-                    zigzag.append(s.charAt(i + cycle - row));
+            // i is a cycle index (e.g 1st cycle, 2nd cycle...)
+            for (int cycleIdx = 0; cycleIdx + row < len; cycleIdx += cycle) {
+                zigzag.append(s.charAt(cycleIdx + row));
+                if (row != 0 && row != numRows - 1 && cycleIdx + cycle - row < len) {
+                    zigzag.append(s.charAt(cycleIdx + cycle - row));
                 }
             }
         }
