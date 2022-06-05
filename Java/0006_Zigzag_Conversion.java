@@ -16,7 +16,7 @@ class Solution {
             // cycleIdx is a cycle index (e.g 1st cycle, 2nd cycle...)
             for (int cycleIdx = 0; cycleIdx + row < len; cycleIdx += cycle) {
                 zigzag.append(s.charAt(cycleIdx + row));
-                // except the first and last rows, each row has one another character between cycle 
+                // except the first and last rows, each row has one another character between the cycles
                 if (row != 0 && row != numRows - 1 && cycleIdx + cycle - row < len) {
                     zigzag.append(s.charAt(cycleIdx + cycle - row));
                 }
