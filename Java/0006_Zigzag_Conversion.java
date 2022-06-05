@@ -11,9 +11,10 @@ class Solution {
 
         // from row 0, visit all rows and append characters
         for (int row = 0; row < numRows; row++) {
-            // i is a cycle index (e.g 1st cycle, 2nd cycle...)
+            // cycleIdx is a cycle index (e.g 1st cycle, 2nd cycle...)
             for (int cycleIdx = 0; cycleIdx + row < len; cycleIdx += cycle) {
                 zigzag.append(s.charAt(cycleIdx + row));
+                // except the first and last row, each row has one another character between cycle 
                 if (row != 0 && row != numRows - 1 && cycleIdx + cycle - row < len) {
                     zigzag.append(s.charAt(cycleIdx + cycle - row));
                 }
