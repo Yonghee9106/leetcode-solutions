@@ -6,10 +6,13 @@
 var convert = function(s, numRows) {
     const len = s.length;
 
+    // no zigzag pattern for these cases
     if (numRows < 2 || len < numRows) {
         return s;
     }
 
+    // create Array object of length numRows and fill with ''
+    // rows[0]: first row characters, rows[1]: second row characters...
     const rows = new Array(numRows).fill('');
     let reverse = false;
     let count = 0;
