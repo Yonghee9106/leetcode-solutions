@@ -24,7 +24,7 @@ var convert = function(s, numRows) {
     // rows[2] =     C
     for (let i = 0; i < len; i++) {
         rows[count] += s[i];                            // save characters in the correct rows
-        reverse? count-- : count++;                      // go down or up to the next rows
+        reverse? count-- : count++;                     // go down or up to the next rows
         if (count === numRows - 1 || count === 0) {     // if reach the end or start of the rows,
             reverse = !reverse;                         // change reverse value
         }
