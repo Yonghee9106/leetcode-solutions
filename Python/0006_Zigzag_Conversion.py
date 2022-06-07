@@ -14,9 +14,9 @@ class Solution:
         # rows[1] =   B   D   F
         # rows[2] =     C
         for char in s:                      # for all characters in input s
-            rows[currRow] += char           # add character to current Row
-            if currRow == 0:                # if not reached the end of rows,
-                direction = 1               # keep going down
+            rows[currRow] += char           # add character to the current row
+            if currRow == 0:                # if reached the start of rows,
+                direction = 1               # change direction, and go down
             elif currRow == numRows -1:     # if reached the end of rows,
                 direction = -1              # change direction, and go up
             currRow += direction            # positive direction = go down, negative direction = go up
