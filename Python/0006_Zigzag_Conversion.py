@@ -15,3 +15,7 @@ class Solution:
             rowNum += direction
 
         return ''.join(rows)
+
+print(Solution().convert("PAYPALISHIRING", 3))              # Example 1
+print(Solution().convert("PAYPALISHIRING", 4))              # Example 2
+print(Solution().convert("A", 1))                           # Example 3
