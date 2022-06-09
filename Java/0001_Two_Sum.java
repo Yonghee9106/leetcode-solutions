@@ -3,7 +3,6 @@
 //import java.util.Map;
 
 class Solution {
-
 	public static int[] twoSum(int[] nums, int target) {
 	    int[] result = new int[2];                                      // instantiate new array for result
 	    int diff;
@@ -38,5 +37,4 @@ class Solution {
 //		System.out.println(Arrays.toString(result2));					// [1, 2]
 //		System.out.println(Arrays.toString(result3));					// [0, 1]
 //	}
-	
 }
