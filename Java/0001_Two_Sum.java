@@ -1,15 +1,23 @@
-// import java.util.Arrays;
-// import java.util.HashMap;
-// import java.util.Map;
-
-// class LeetCode {
-
-// 	public static void main(String[] args) {
-// 		int[] nums = {3, 3};
-// 		int[] result = twoSum(nums, 6);
-		
-// 		System.out.println(Arrays.toString(result));
-// 	}
+//import java.util.Arrays;
+//import java.util.HashMap;
+//import java.util.Map;
+//
+//class LeetCode {
+//
+//	public static void main(String[] args) {
+//		int[] nums1 = {2, 7 ,11, 15};
+//		int[] result1 = twoSum(nums1, 9);
+//		
+//		int[] nums2 = {3, 2, 4};
+//		int[] result2 = twoSum(nums2, 6);
+//		
+//		int[] nums3 = {3, 3};
+//		int[] result3 = twoSum(nums3, 6);
+//		
+//		System.out.println(Arrays.toString(result1));					// [0, 1]
+//		System.out.println(Arrays.toString(result2));					// [1, 2]
+//		System.out.println(Arrays.toString(result3));					// [0, 1]
+//	}
 
 	public static int[] twoSum(int[] nums, int target) {
 	    int[] result = new int[2];                                      // instantiate new array for result
@@ -30,4 +38,4 @@
 	    }
 	    return result;
 	}
-// }
+//}
