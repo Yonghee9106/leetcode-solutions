@@ -24,17 +24,20 @@ class Solution {
 	}
 	
 //	public static void main(String[] args) {
+//		// Example 1, output: [0, 1]
 //		int[] nums1 = {2, 7 ,11, 15};
-//		int[] result1 = twoSum(nums1, 9);
+//		int[] example1 = twoSum(nums1, 9);
 //		
+//		// Example 2, output: [1,2]
 //		int[] nums2 = {3, 2, 4};
-//		int[] result2 = twoSum(nums2, 6);
+//		int[] example2 = twoSum(nums2, 6);
 //		
+//		// Example 3, output: [0,1]
 //		int[] nums3 = {3, 3};
-//		int[] result3 = twoSum(nums3, 6);
+//		int[] example3 = twoSum(nums3, 6);
 //		
-//		System.out.println(Arrays.toString(result1));					// [0, 1]
-//		System.out.println(Arrays.toString(result2));					// [1, 2]
-//		System.out.println(Arrays.toString(result3));					// [0, 1]
+//		System.out.println(Arrays.toString(example1));					// [0, 1]
+//		System.out.println(Arrays.toString(example2));					// [1, 2]
+//		System.out.println(Arrays.toString(example3));					// [0, 1]
 //	}
 }
