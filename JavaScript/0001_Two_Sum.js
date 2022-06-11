@@ -4,7 +4,7 @@
  * @return {number[]}
  */
 
- var twoSum = function(nums, target) {
+var twoSum = function(nums, target) {
     let diff_dic = {};                      // key: difference, value: index
 
     for(let i=0; i<nums.length; i++) {      // for all elements in nums
