@@ -4,7 +4,7 @@
 
 class Solution {
 	public static int[] twoSum(int[] nums, int target) {
-	    int[] result = new int[2];                                      // instantiate new array for result
+	    int[] result = new int[2];                                      // instantiate new array
 	    int diff;
 
 	    Map<Integer, Integer> map = new HashMap<Integer, Integer>();    // create hashmap (key: nums element, value: index)
