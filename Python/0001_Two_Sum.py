@@ -2,15 +2,15 @@ class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         diff_dic = {}                           # key: num, value: index
         
-        for index, num in enumerate(nums):      # enumerate() returns index and value(num)
+        for index, num in enumerate(nums):      # enumerate() returns the index and value(num)
             diff = target - num
             
             if diff in diff_dic:                # if there is a diff in diff_dic
                 return [diff_dic[diff], index]  # diff's index and current index is the two sum combination
             
-            diff_dic[num] = index               # if there isn't a diff, add current num as a key and index as value
+            diff_dic[num] = index               # if diff doesn't exist, add current num as a key and the index as a value
             
-        return print("No two sum solution!")
+        return print("No two sum combination!")
 
     
     
