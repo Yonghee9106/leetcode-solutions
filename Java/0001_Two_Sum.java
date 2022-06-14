@@ -4,21 +4,21 @@
 
 class Solution {
 	public static int[] twoSum(int[] nums, int target) {
-	    int[] result = new int[2];                                      // instantiate new array
+	    int[] result = new int[2];                                      	// instantiate new array
 	    int diff;
 
-	    Map<Integer, Integer> diff_Map = new HashMap<Integer, Integer>();    // create hashmap (key: 'nums' element, value: index)
+	    Map<Integer, Integer> diff_Map = new HashMap<Integer, Integer>();   // create hashmap (key: 'nums' element, value: index)
 
-	    for(int i=0; i<nums.length; i++) {								// for all elements in the 'nums' array
+	    for(int i=0; i<nums.length; i++) {									// for all elements in the 'nums' array
 	        diff = target - nums[i];
 
-	        if(diff_Map.containsKey(diff)) {                                 // if the 'diff' exists in the 'map'
+	        if(diff_Map.containsKey(diff)) {                                // if the 'diff' exists in the 'map'
 	            result[0] = diff_Map.get(diff);								// result[0] = diff's index
-	            result[1] = i;											// result[1] = current index
+	            result[1] = i;												// result[1] = current index
 
-	            return result;                                          // diff's index and current index are two sum combination
+	            return result;                                          	// diff's index and current index are two sum combination
 	        }
-	        diff_Map.put(nums[i], i);                                        // if not existing, add nums[i] as a key and index as a value
+	        diff_Map.put(nums[i], i);										// if not existing, add nums[i] as a key and index as a value
 	    }
 	    return result;
 	}
