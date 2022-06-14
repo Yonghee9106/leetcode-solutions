@@ -36,8 +36,8 @@ class Solution {
 //		int[] nums3 = {3, 3};
 //		int[] example3 = twoSum(nums3, 6);
 //		
-//		System.out.println(Arrays.toString(example1));					// [0, 1]
-//		System.out.println(Arrays.toString(example2));					// [1, 2]
-//		System.out.println(Arrays.toString(example3));					// [0, 1]
+//		System.out.println(Arrays.toString(example1));			// [0, 1]
+//		System.out.println(Arrays.toString(example2));			// [1, 2]
+//		System.out.println(Arrays.toString(example3));			// [0, 1]
 //	}
 }
