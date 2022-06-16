@@ -64,7 +64,7 @@ class Solution {
 //		printLinked(example1);
 //		
 //		
-//		// Example 1, output: [0]
+//		// Example 2, output: [0]
 //		ListNode linked3 = new ListNode(0, null);
 //		
 //		ListNode linked4 = new ListNode(0, null);
@@ -73,7 +73,7 @@ class Solution {
 //		printLinked(example2);
 //		
 //		
-//		// Example 1, output: [8,9,9,9,0,0,0,1]
+//		// Example 3, output: [8,9,9,9,0,0,0,1]
 //		ListNode linked5 = new ListNode(9);
 //		ListNode head5 = linked5;
 //		head5.next = new ListNode(9);
