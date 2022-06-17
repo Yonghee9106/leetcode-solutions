@@ -51,7 +51,7 @@ head2 = head2.next
 head2.next = ListNode(4, None)
 
 example1 = Solution().addTwoNumbers(list1, list2)
-Solution().printList(example1)
+Solution().printList(example1)                          # [7,0,8]
 
 
 # Example 2, output: [0]
