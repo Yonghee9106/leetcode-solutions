@@ -61,7 +61,7 @@ class Solution {
 //		head2.next = new ListNode(4, null);
 //		
 //		ListNode example1 = addTwoNumbers(linked1, linked2);
-//		printLinked(example1);
+//		printLinked(example1);						// [7,0,8]
 //		
 //		
 //		// Example 2, output: [0]
