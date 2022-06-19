@@ -97,7 +97,7 @@ class Solution {
 //		head6.next = new ListNode(9, null);
 //		
 //		ListNode example3 = addTwoNumbers(linked5, linked6);
-//		printLinked(example3);
+//		printLinked(example3);						// [8,9,9,9,0,0,0,1]
 //	}
 //	
 //	// linked list print method
