@@ -59,7 +59,7 @@ list3 = ListNode(0, None)
 list4 = ListNode(0, None)
 
 example2 = Solution().addTwoNumbers(list3, list4)
-Solution().printList(example2)
+Solution().printList(example2)                          # [0]
 
 
 # Example 3, output: [8,9,9,9,0,0,0,1]
