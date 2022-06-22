@@ -86,4 +86,4 @@ head6 = head6.next
 head6.next = ListNode(9, None)
 
 example3 = Solution().addTwoNumbers(list5, list6)
-Solution().printList(example3)
+Solution().printList(example3)                          # [8,9,9,9,0,0,0,1]
