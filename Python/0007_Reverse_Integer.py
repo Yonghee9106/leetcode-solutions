@@ -34,4 +34,4 @@ class Solution:
             return 0
 
 
-print(Solution().reverse(456))
+print(Solution().reverse(123))
