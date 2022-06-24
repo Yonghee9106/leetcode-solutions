@@ -35,3 +35,4 @@ class Solution:
 
 
 print(Solution().reverse(123))
+print(Solution().reverse(-123))
