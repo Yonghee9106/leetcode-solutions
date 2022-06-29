@@ -24,6 +24,6 @@ class Solution:
         # ''.join(rows) = AEBDFC
         return ''.join(rows)
 
-print(Solution().convert("PAYPALISHIRING", 3))              # Example 1
+print(Solution().convert("PAYPALISHIRING", 3))              # PAHNAPLSIIGYIR
 print(Solution().convert("PAYPALISHIRING", 4))              # Example 2
 print(Solution().convert("A", 1))                           # Example 3
