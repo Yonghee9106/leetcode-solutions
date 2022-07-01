@@ -26,4 +26,4 @@ class Solution:
 
 print(Solution().convert("PAYPALISHIRING", 3))              # PAHNAPLSIIGYIR
 print(Solution().convert("PAYPALISHIRING", 4))              # PINALSIGYAHRPI
-print(Solution().convert("A", 1))                           # Example 3
+print(Solution().convert("A", 1))                           # A
