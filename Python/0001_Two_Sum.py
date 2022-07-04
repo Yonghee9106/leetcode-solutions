@@ -15,5 +15,5 @@ class Solution:
     
     
 print(Solution().twoSum([2, 7, 11, 15], 9))     # Example 1, output: [0, 1] 
-print(Solution().twoSum([3, 2, 4], 6))          # Example 2, output: [1, 2]
+print(Solution().twoSum([3, 2, 4], 6))          # [1, 2]
 print(Solution().twoSum([3, 3], 6))             # [0, 1]
