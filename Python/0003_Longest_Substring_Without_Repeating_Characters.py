@@ -20,4 +20,4 @@ class Solution:
 
 print(Solution().lengthOfLongestSubstring("abcabcbb"))                  # 3
 print(Solution().lengthOfLongestSubstring("bbbbb"))                     # 1
-print(Solution().lengthOfLongestSubstring("pwwkew"))                    # Example 3
+print(Solution().lengthOfLongestSubstring("pwwkew"))                    # 3
