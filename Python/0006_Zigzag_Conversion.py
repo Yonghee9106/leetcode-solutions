@@ -5,7 +5,7 @@ class Solution:
         if numRows < 2 or numRows >= len(s):
             return s
 
-        rows = [''] * numRows           # create an array of length numRows and fill with ''
+        rows = [''] * numRows               # create an array of length numRows and fill with ''
         currRow, direction = 0, 1
 
         # save characters in the correct rows, find the correct rows by currRow
