@@ -3,7 +3,7 @@
  * @return {number}
  */
 var lengthOfLongestSubstring = function(s) {
-    if(s.length == 0) {                                     // if size of input s is 0,
+    if(s.length == 0) {                                                 // if size of input s is 0,
         return 0;                                           // return 0, no substring
     }
 
