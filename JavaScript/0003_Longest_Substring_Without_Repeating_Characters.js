@@ -9,7 +9,7 @@ var lengthOfLongestSubstring = function(s) {
 
     const substring = new Map();                                        // key: character, value: index
     let startIndex = 0;                                                 // start index of substring
-    let maxLen = 0;                                         // max length of substring
+    let maxLen = 0;                                                     // max length of substring
     
     for(let i=0; i<s.length; i++) {                         // for all input s characters
         // if there's duplicated character, move start index next to duplicated character index
